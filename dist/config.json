@@ -6,10 +6,12 @@
 
     },
   "qwen3-coder-plus": {
-     "ANTHROPIC_API_KEY":"sk-aacc4422c3ed4d77a16bbf74e394c1e8",
-      "ANTHROPIC_BASE_URL":"https://dashscope.aliyuncs.com/apps/anthropic",
-      "ANTHROPIC_MODEL":"qwen3-coder-plus"
-
+    "ANTHROPIC_API_KEY": "YOUR_DASHSCOPE_API_KEY",
+    "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "ANTHROPIC_MODEL": "qwen3-coder-plus",
+    "OPENAI_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "OPENAI_API_KEY": "YOUR_DASHSCOPE_API_KEY",
+    "MODEL": "qwen-plus"
   },
   "gpt": {
     "ANTHROPIC_API_KEY": "YOUR_OPENAI_API_KEY",

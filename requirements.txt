@@ -1,0 +1,10 @@
+# 环境变量管理器依赖
+# 核心依赖 - PyInstaller 打包时自动包含
+# 无需额外依赖（标准库）
+
+# 可选依赖
+cryptography>=41.0.0    # 配置加密功能
+pywin32>=306; sys_platform == 'win32'  # Windows 永久设置环境变量
+
+# 打包工具（仅开发时需要）
+pyinstaller>=6.0.0
