@@ -17,7 +17,8 @@ eggs/
 lib/
 lib64/
 parts/
-sdist/
+dist/
+build/
 var/
 wheels/
 pip-wheel-metadata/
@@ -26,6 +27,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 PIPFILE.lock
+.claude
 
 # 虚拟环境
 venv/
