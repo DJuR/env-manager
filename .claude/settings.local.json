@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile:*)",
+      "Bash(python:*)",
+      "Bash(/usr/bin/python3:*)",
+      "Bash(echo:*)",
+      "Bash(/cygdrive/c/Windows/py.exe:*)",
+      "Bash(/usr/bin/python:*)"
+    ]
+  }
+}
