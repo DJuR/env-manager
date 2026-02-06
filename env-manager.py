@@ -630,29 +630,29 @@ def main():
         epilog="""
 使用示例:
   # 基本功能
-  env-manager.py qwen3-coder-plus --print    # 显示配置
-  env-manager.py gpt --export                # 导出到当前shell
-  env-manager.py claude --save              # 保存为脚本文件
-  env-manager.py --list                     # 列出所有配置
-  env-manager.py deepseek --validate        # 验证配置
-  env-manager.py gpt --set                  # 设置当前进程环境变量
+  env-manager qwen3-coder-plus --print    # 显示配置
+  env-manager gpt --export                # 导出到当前shell
+  env-manager claude --save              # 保存为脚本文件
+  env-manager --list                     # 列出所有配置
+  env-manager deepseek --validate        # 验证配置
+  env-manager gpt --set                  # 设置当前进程环境变量
 
   # 永久设置环境变量（需要管理员权限）
-  env-manager.py gpt --permanent            # 永久设置到用户环境变量
-  env-manager.py gpt --permanent --scope system  # 设置到系统环境变量（需要管理员）
+  env-manager gpt --permanent            # 永久设置到用户环境变量
+  env-manager gpt --permanent --scope system  # 设置到系统环境变量（需要管理员）
 
   # 配置加密
-  env-manager.py --encrypt                  # 加密配置文件
-  env-manager.py --decrypt                  # 解密配置文件
-  env-manager.py --edit-encrypted           # 编辑加密的配置文件
+  env-manager --encrypt                  # 加密配置文件
+  env-manager --decrypt                  # 解密配置文件
+  env-manager --edit-encrypted           # 编辑加密的配置文件
 
   # .env 文件支持
-  env-manager.py gpt --to-dotenv            # 导出为 .env 文件
-  env-manager.py --from-dotenv .env myconfig --overwrite  # 从 .env 导入配置
+  env-manager gpt --to-dotenv            # 导出为 .env 文件
+  env-manager --from-dotenv .env myconfig --overwrite  # 从 .env 导入配置
 
   # 应用信息
-  env-manager.py --info                     # 显示应用和配置文件信息
-  env-manager.py --init                     # 初始化配置文件
+  env-manager --info                     # 显示应用和配置文件信息
+  env-manager --init                     # 初始化配置文件
         """
     )
 
